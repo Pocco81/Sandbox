@@ -2,6 +2,7 @@ SHELL:=/usr/bin/env bash
 
 PREFIX=/tmp/home_test/.local
 CONFIG_DIR=/tmp/home_test/.config
+TMPDIR=/tmp
 LOG_INFO=$(shell date +"%H:%M:%S") \e[0;34mINFO\e[0m
 LOG_ERROR=$(shell date +"%H:%M:%S") \e[1;31mERROR\e[0m
 LOG_WARNING=$(shell date +"%H:%M:%S") \e[0;33mWARNING\e[0m
@@ -28,7 +29,7 @@ uninstall:
 	@# autoclean this makefile since npm doesn't support preuninstall scripts
 	@if [[ "$(do_autoclean)" == "true" ]]; then \
 		echo -e "$(LOG_INFO) removing this makefile..."; \
-		rm "`pwd`/Makefile"; \
+		rm "$(TMPDIR)/miniprompt.mk"; \
 	fi
 
 run:
