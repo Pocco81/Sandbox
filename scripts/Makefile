@@ -2,7 +2,7 @@ SHELL:=/usr/bin/env bash
 
 PREFIX=/tmp/home_test/.local
 CONFIG_DIR=/tmp/home_test/.config
-TMPDIR=/tmp
+BASHRC=/tmp/home_test/.bashrc
 LOG_INFO=$(shell date +"%H:%M:%S") \e[0;34mINFO\e[0m
 LOG_ERROR=$(shell date +"%H:%M:%S") \e[1;31mERROR\e[0m
 LOG_WARNING=$(shell date +"%H:%M:%S") \e[0;33mWARNING\e[0m
@@ -12,11 +12,14 @@ do_autoclean=false
 
 install:
 	@echo -e "$(LOG_INFO) Preparing..."
-	mkdir -p $(PREFIX)/bin $(CONFIG_DIR)/smt
+	@mkdir -p $(PREFIX)/bin $(CONFIG_DIR)/smt
 	@echo -e "$(LOG_INFO) Installing MiniPrompt under $(PREFIX)/bin/..."
-	install $(CURDIR)/simple_mnp_test.sh $(PREFIX)/bin/smt
+	@install $(CURDIR)/simple_mnp_test.sh $(PREFIX)/bin/smt
 	@echo -e "$(LOG_INFO) Cloning default config under $(CONFIG_DIR)/smt/..."
-	cp $(CURDIR)/config/sample.toml $(CONFIG_DIR)/smt/sample.toml
+	@cp $(CURDIR)/config/sample.toml $(CONFIG_DIR)/smt/sample.toml
+	@echo -e "$(LOG_WARNING) Appending sourcing path to your $(BASHRC)..."
+	@echo -e "alias mp=\"$(PREFIX)/bin/smt\"\nmp" >> $(BASHRC)
+	@echo -e "$(LOG_SUCCESS) You are all set!"
 
 uninstall:
 	@echo -e "$(LOG_INFO) Preparing..."
