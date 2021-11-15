@@ -29,7 +29,7 @@ uninstall:
 	@# autoclean this makefile since npm doesn't support preuninstall scripts
 	@if [[ "$(do_autoclean)" == "true" ]]; then \
 		echo -e "$(LOG_INFO) removing this makefile..."; \
-		rm "$(TMPDIR)/miniprompt.mk"; \
+		rm "$(abspath $(lastword $(MAKEFILE_LIST)))"; \
 	fi
 
 run:
