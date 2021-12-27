@@ -13,6 +13,7 @@
 	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/transparent.png" height="30" width="1px"/>
 	Catppuccin Theme
+	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/transparent.png" height="30" width="1px"/>
 </h3>
 
 <!-- <h3 style="text-align:center"> -->
