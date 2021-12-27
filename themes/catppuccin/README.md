@@ -10,7 +10,7 @@
 
 
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="100" alt="Logo"/>
+	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="100" alt="Logo"/><br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Catppuccin Theme
 </h3>
 
