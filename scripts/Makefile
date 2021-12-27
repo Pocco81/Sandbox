@@ -17,8 +17,10 @@ install:
 	@install $(CURDIR)/simple_mnp_test.sh $(PREFIX)/bin/smt
 	@echo -e "$(LOG_INFO) Cloning default config under $(CONFIG_DIR)/smt/..."
 	@cp $(CURDIR)/config/sample.toml $(CONFIG_DIR)/smt/sample.toml
-	@echo -e "$(LOG_WARNING) Appending sourcing path to your $(BASHRC)..."
-	@echo -e "alias mp=\"$(PREFIX)/bin/smt\"\nmp" >> $(BASHRC)
+	@if ! grep -q .local/bin/smt "$(BASHRC)"; then \
+		echo -e "$(LOG_WARNING) Appending sourcing command to your $(BASHRC)..."; \
+		echo -e "alias mp=\"$(PREFIX)/bin/smt\"\nmp" >> $(BASHRC); \
+	fi
 	@echo -e "$(LOG_SUCCESS) You are all set!"
 
 uninstall:

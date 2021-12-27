@@ -30,23 +30,3 @@ fn echo_main(addr: &str) -> io::Result<()> {
 fn main() {
     echo_main("127.0.0.1:17007").expect("error: ");
 }
-
-async fn many_requests(requests: Vec<(String, u16, String)>)
-                           -> Vec<std::io::Result<String>>
-{
-    use async_std::task;
-
-    let mut handles = vec![];
-    for (host, port, path) in requests {
-        handles.push(task::spawn_local(async move {
-            cheapo_request(&host, port, &path).await
-        }));
-    }
-
-    let mut results = vec![];
-    for handle in handles {
-        results.push(handle.await);
-    }
-
-    results
-}
