@@ -10,9 +10,8 @@
 
 
 <p align="center">
-	Test
+	<h2 align="center">Catppuccin Theme</h2>
 </p>
-I am in <span style="font-family:Papyrus; font-size:4em;">LOVE!</span>
 
 <!-- <h3 style="text-align:center"> -->
 <!-- 	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="90" alt="Logo"/> -->
