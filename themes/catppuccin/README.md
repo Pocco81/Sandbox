@@ -10,7 +10,7 @@
 
 
 <p align="center">
-	<h2 align="center">Catppuccin Theme</h2>
+	<h3 align="center">Catppuccin Theme</h3>
 </p>
 
 <!-- <h3 style="text-align:center"> -->
