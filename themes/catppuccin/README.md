@@ -1,5 +1,4 @@
 <p style="font-size:181%;" align="center">
-	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="90" alt="alt attribute goes here!" title="This is a Title"/>
 	<br><strong>Catppuccin Theme</strong>
 </p>
 
