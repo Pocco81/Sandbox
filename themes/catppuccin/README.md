@@ -10,7 +10,7 @@
 
 
 <p align="center">
-	<h3 style="text-align:center">Test</h3>
+	<h3>Test</h3>
 </p>
 
 <!-- <h3 style="text-align:center"> -->
