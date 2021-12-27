@@ -9,8 +9,7 @@
 <!-- </p> -->
 
 <h3 style="text-align:center">
-	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="90" alt="Logo"/>
-	<br>Catppuccin Theme
+	Catppuccin Theme
 </h3>
 
 
