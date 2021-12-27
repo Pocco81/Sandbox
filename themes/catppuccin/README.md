@@ -11,7 +11,7 @@
 
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/transparent.png" height="5px" width="5px" alt="Transparent Space"/>
+	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/transparent.png" height="100px" width="100px" alt="Transparent Space"/>
 	Catppuccin Theme
 </h3>
 
