@@ -1,8 +1,16 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="90" />
-  <h2 align="center">Catppuccin Theme</h2>
+<!-- <p align="center"> -->
+<!--   <img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="90" /> -->
+<!--   <h2 align="center">Catppuccin Theme</h2> -->
+<!-- </p> -->
+
+<p style="font-size:181%;" align="center">
+	<img src="https://raw.githubusercontent.com/Pocco81/Sandbox/dev/themes/catppuccin/export_black_cat_circle.png" width="90" alt="alt attribute goes here!" title="This is a Title"/>
+	<br><strong>Catppuccin Theme</strong>
 </p>
-<p align="center">Vibrant pastel theme for the masses!</p>
+
+<!-- <p style="font-size:110%;" align="center"> -->
+<!-- 	<em>Catppuccin Theme</em> -->
+<!-- </p> -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/palette/morning.png" width="175" />
