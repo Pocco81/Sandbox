@@ -32,9 +32,11 @@
 
  <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th></th>
+    <th>Labels</th>
+    <th>Hex</th>
+    <th>RGG</th>
+    <th>HSL</th>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
