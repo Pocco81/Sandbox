@@ -29,3 +29,21 @@
 	| <img src="assets/palette/circles/latte_mantle.png" height="23" width="23"/>    | Mantle    | `#e6e9ef` | `rgb(230, 233, 239)` | `hsl(220, 22%, 92%)` |
 	| <img src="assets/palette/circles/latte_crust.png" height="23" width="23"/>     | Crust     | `#dce0e8` | `rgb(220, 224, 232)` | `hsl(220, 21%, 89%)` |
 </details>
+
+ <table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table> 
